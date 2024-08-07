@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5673a156.css",
+    "main.js": "/portfolio/static/js/main.2eb69c63.js",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.b8d061705615eb3cb1eb.png",
+    "static/media/keeper.png": "/portfolio/static/media/keeper.7b78ceb1cea3cf2cb526.png",
+    "static/media/todo.png": "/portfolio/static/media/todo.b561bc9a54db2b55107d.png",
+    "static/media/Guess My Number.png": "/portfolio/static/media/Guess My Number.7be8ef2ea6f31d6367fc.png",
+    "index.html": "/portfolio/index.html",
+    "main.5673a156.css.map": "/portfolio/static/css/main.5673a156.css.map",
+    "main.2eb69c63.js.map": "/portfolio/static/js/main.2eb69c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5673a156.css",
+    "static/js/main.2eb69c63.js"
+  ]
+}
