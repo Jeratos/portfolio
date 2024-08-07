@@ -1,13 +1,140 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+   
+    background-color: #F5EDED;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+    font-family:'Times New Roman', Times, serif;
+    color: #6482AD;
+}
+.color{
+    background: linear-gradient(to top left,#6482AD,#E2DAD6,#7FA1C3);
+    animation: gradient-animation 18s ease infinite;
+    background-size: 180% 180%;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+   
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.nave{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.homeHeader{
+    background-color: #F5EDED;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25em;
+    box-shadow: 0px 0px 10px black;
+    margin: 5px;
+    margin-top: 4.1rem;
+    border-radius: 0.5em;
+}
+.name{
+    text-transform:capitalize;
+    font-family: sans-serif;
+    letter-spacing: 0.4rem;
+    text-align: center;
+}
+.work{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.more{
+    margin: 1rem;
+    
+}
+.more h3{
+    text-align: center;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.more div{
+    text-align: center;
+   font-size: 1.5rem;
+} 
+
+.crd{
+    margin: 1rem 0.5rem;
+}
+.cont{
+    box-shadow: 0px 0px 7px black;
+    /* border-radius: 7px; */
+    background-color: #E2DAD6;
+     width: 100vw;
+    margin: 1rem auto;
+    margin-bottom:0px ;
+    padding: 1rem 5rem;
+    
+}
+
+.Name, .email, .message, .subject{
+    box-shadow: 0px 0px 1px  black;
+    width: 90vw;
+    
+}
+.react-reveal{
+    display: inline-block;
+}
+.desc{
+    margin: 5px;
+    margin-top: 4.1rem;
+    background-color:#F5EDED;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+}
+.aboutHeader{
+    margin: 1rem 1rem;
+    padding: 1rem;
+}
+.pr{
+    padding: 0.5rem 2rem;
+    text-align: left;
+    font-size: 23px;
+}
+.projcont{
+    width: 98vw;
+    margin-top: 4.1rem;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0.5em;
+
+
+}
+.prj{
+    margin-top: 1rem;
+}
+
+@media (max-width:900px){
+    .Name, .email, .message, .subject{
+        width: 80vw;
+        
+    }
+}
+
+@media (max-width:480px){
+    .Name, .email, .message, .subject{
+        width: 70vw;
+        
+    }
 }
